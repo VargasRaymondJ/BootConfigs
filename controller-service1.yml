@@ -1,0 +1,19 @@
+server:
+  port = 8080
+
+message: "Hello from the TWG"
+
+myawesomefeature:
+  flag = true
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:3671/eureka/
+  instance:
+    preferIpAddress: true
+
+ribbon:
+  eureka:
+    enabled: true
