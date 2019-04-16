@@ -6,7 +6,7 @@ spring:
 server:
   port: 8080
 
-message: "Census is a dumpster fire"
+message: "Pagination is bogus"
 
 myawesomefeature:
   flag: true
